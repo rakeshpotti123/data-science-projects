@@ -33,4 +33,3 @@ The project was deployed using streamlit and heroku (Initiallity, then we got st
 Heroku's storage policy makes it slow and breaks down at times.
 We are working on alternatives to optimize the app.
 The BERT model is the most accurate. However, it takes a huge amount of time to initialize its 400Mb saved weights. Alternatives are being considered at this point as the delay time is too large (about 2 to 3 minutes per prediction). The @st.cache isn't helping much. We will work on parallelizing the python code using a new lib.
-Link:https://share.streamlit.io/vrbabu9000/abusive_content_nlp/app.py
